@@ -3,7 +3,7 @@ let rval = Math.floor(Math.random() * 100)
 rval = rval + 1
 let uimp = 0
 // loop
- while (uimp !== rval) {
+while (uimp !== rval) {
   uimp = prompt('guess a number between 1 and 100')
   uimp = parseInt(uimp)
   if (uimp === rval) {
@@ -12,5 +12,5 @@ let uimp = 0
     alert('your guess is too high')
   } else {
     alert('your guess was too low')
- }
+  }
 }
